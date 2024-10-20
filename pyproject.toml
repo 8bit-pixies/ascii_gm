@@ -1,0 +1,16 @@
+[project]
+name = "ascii-gm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=11.0.0",
+    "pydantic>=2.9.2",
+    "tqdm>=4.66.5",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+]
