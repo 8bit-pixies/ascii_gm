@@ -50,6 +50,36 @@ Example output
 
 ![example](./card.png)
 
+## Legend
+
+**Likely Odds**
+
+* `low`: Likely Odds (Likely) 
+* `---`: Likely Odds (Even/50:50)
+* `hi`: Likely Odds (Unlikely)
+
+With allowable values being `Y` (Yes) `N` (No) with modifiers `!` (and...) and `?` (but...)
+
+**Dice**
+
+Self explanatory. `d00` is the `d100` with values from `00-99` similar to percentile dice interpret `00` as `100`.
+
+**Event Generator**
+
+Created from Ironsworn tables: `Action`, `Location Descriptors`, `Theme`.
+
+**Quest Generator**
+
+Created from One Page Solo Engine: `objective`, `adversaries`, `action focus`, `topic focus`. 
+
+**NPC Generator**
+
+Created from Ironsworn tables: `Ironlander Names`, `NPC Descriptors`, `Goals`.
+
+**Virtue/Vice**
+
+Created from Cairn character tables: `Virtue`, `Vice`.
+
 ## Tests
 
 To run tests
